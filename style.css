@@ -1,64 +1,63 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: "Times New Roman", serif;
+  background: white;
   margin: 0;
-  background: #f5f5f5;
-  line-height: 1.6;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 40px 25px;
 }
 
 header {
-  background: #111;
-  color: white;
   text-align: center;
-  padding: 2rem 1rem;
+  margin-bottom: 30px;
 }
 
-.links a {
-  color: white;
-  margin: 0 10px;
-  text-decoration: none;
+h1 {
+  margin: 0;
+  font-size: 32px;
 }
 
-nav {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  background: #eaeaea;
-  padding: 1rem;
+.title {
+  margin: 5px 0 10px;
+  font-size: 18px;
 }
 
-nav a {
-  margin: 5px 15px;
-  text-decoration: none;
-  color: black;
-  font-weight: bold;
+.contact {
+  font-size: 14px;
+}
+
+.contact span {
+  display: block;
 }
 
 section {
-  max-width: 900px;
-  margin: auto;
-  padding: 2rem;
-  background: white;
+  margin-bottom: 25px;
+}
+
+h2 {
+  border-bottom: 1px solid black;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.subheading {
+  font-weight: bold;
   margin-top: 10px;
 }
 
-.portfolio-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 20px;
+.job {
+  margin-top: 10px;
 }
 
-.card {
-  padding: 1rem;
-  border-radius: 8px;
-  background: #fafafa;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+.date {
+  font-size: 14px;
+  margin-bottom: 5px;
 }
 
-footer {
-  text-align: center;
-  background: #111;
-  color: white;
-  padding: 1rem;
-  margin-top: 2rem;
+ul {
+  margin-top: 5px;
 }
-
