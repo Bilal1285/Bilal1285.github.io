@@ -72,3 +72,20 @@ ul {
   margin: 4px 0 8px 20px;
   padding: 0;
 }
+
+.portfolio{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.portfolio-item img{
+  width: 100%;
+  border: 1px solid black;
+}
+
+.portfolio-item p{
+  font-size: 14px;
+  margin-top: 5px;
+}
