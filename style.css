@@ -47,7 +47,7 @@ section {
   margin-bottom: 15px;
 }
 
-h2 {
+h2 { /* THIS IS HOW TO ADD FULL LENGTH LINE */
   border-bottom: 1px solid black;
   padding-bottom: 5px;
   margin-bottom: 10px;
@@ -73,6 +73,7 @@ ul {
   padding: 0;
 }
 
+/* The portfolio css section */
 .portfolio{
   display: grid;
   grid-template-columns: 1fr 1fr;
